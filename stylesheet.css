@@ -12,6 +12,12 @@ body{
 p{
     width: 500px;
 }
+h1{
+    text-shadow: 5px 5px 4px rgb(192, 240, 255);
+}
+h2{
+    text-shadow: 3px 3px 4px rgb(159, 233, 255);
+}
 #page-2{
     position: absolute;
     font-size: 15px;
