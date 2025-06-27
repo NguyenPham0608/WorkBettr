@@ -11,7 +11,7 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(210deg, rgba(158, 228, 255, 1) 0%, rgba(117, 255, 175, 1) 67%, rgba(255, 248, 181, 1) 100%);
+    background: linear-gradient(210deg, rgb(94, 209, 255) 0%, rgba(117, 255, 175, 1) 67%, rgba(255, 248, 181, 1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,13 +21,15 @@ body {
 }
 
 #title-bold {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(25, 159, 255);
     width: 100vw;
-    height: 400px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+
     margin: 0;
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.176);
 }
 
 p {
@@ -45,27 +47,23 @@ p:hover {
 }
 
 h1 {
-    text-shadow: 5px 5px 4px rgb(192, 240, 255);
+    margin: none;
+    padding: 0;
 }
 
-h2 {
-    text-shadow: 3px 3px 4px rgb(159, 233, 255);
-}
+
 
 #page-2 {
-    position: absolute;
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 5px;
     border: none;
-    padding: 5px;
-    transform: translate(-50%, -50%);
-    margin: 20px;
+    padding: 10px;
+    margin: 30px;
 }
 
 #page-2:hover {
-    font-size: 20px;
-    padding: 8px;
     cursor: pointer;
+    transform: scale(1.1);
 
 }
 
@@ -85,7 +83,8 @@ h2 {
 }
 
 #bold {
-    font-size: 50px;
+    font-size: 70px;
+    margin: 10px;
 }
 
 /* #hr{
